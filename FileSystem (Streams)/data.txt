@@ -1,0 +1,18 @@
+'Streams in Node.js'
+Streams in Node.js are objects that facilitate reading data from or writing data to a source in a continuous, efficient manner. They are particularly useful for handling large data sets, like files or data coming from a network, without requiring the entire data set to be loaded into memory.
+
+'Types of Streams'
+Node.js provides four types of streams:
+
+1. Readable Streams: Used to read data.
+     Examples: fs.createReadStream() for file reading, HTTP request objects.
+2. Writable Streams: Used to write data.
+     Examples: fs.createWriteStream() for file writing, HTTP response objects.
+3. Duplex Streams: Can read and write data.
+     Examples: Sockets, net.Socket.
+4. Transform Streams: Duplex streams that can modify or transform data while reading or writing.
+     Examples: Compression libraries like zlib.
+
+'Advantages of Streams'
+1. Memory Efficiency: Only small chunks of data are processed at a time.
+2. Time Efficiency: Data processing starts as soon as it is available, without waiting for the entire data to be loaded.
