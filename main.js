@@ -47,15 +47,4 @@ console.log("Starting Node.js");
         // hash.update('Hello Suriya');
         // console.log(hash.digest('hex'));
 
-// Custome Module in Node.js
-        const greetings = require('./CustomModules');
-        // const message = greetings('Suriya');
-        // console.log(message);
-        
-// Multiple Module in Node.js
-        const math = require('./math');
-        // console.log(math.add(2, 3));
-        // console.log(math.multiply(2, 3));
-        // console.log(math.subtract(2, 3));
-        // console.log(math.divide(2, 0));
 console.log("Ending Node.js, But There are more modules in Node.js");
